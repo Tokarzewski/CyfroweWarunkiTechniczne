@@ -155,11 +155,11 @@ def typ_mieszkalny(typ: str) -> bool:
         budynek_mieszkalny, budynek_zamieszkania_zbiorowego,
         mieszkanie, pomieszczenie_mieszkalne.
     """
-    typy_mieszkalne = ["zabudowa_jednorodzinna",
-                       "budynek_mieszkalny", 
-                       "budynek_zamieszkania_zbiorowego",
+    typy_mieszkalne = ["zabudowa jednorodzinna",
+                       "budynek mieszkalny", 
+                       "budynek zamieszkania zbiorowego",
                        "mieszkanie",
-                       "pomieszczenie_mieszkalne"
+                       "pomieszczenie mieszkalne"
                        ]
     if typ in typy_mieszkalne:
         return True
