@@ -150,7 +150,7 @@ aneks_kuchenny = """część pomieszczenia mieszkalnego służącą do przygotow
 
 
 def typ_mieszkalny(typ: str) -> bool:
-    """Funkcja pomocnicza nie wynikają wprost z przepisów.
+    """Funkcja pomocnicza nie wynikająca wprost z przepisów.
         Dostępne typy mieszkalne: zabudowa_jednorodzinna,
         budynek_mieszkalny, budynek_zamieszkania_zbiorowego,
         mieszkanie, pomieszczenie_mieszkalne.
